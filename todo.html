@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Track My Tasks</title>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+
+  <div class="logo">Track My Tasks</div>
+
+  <div class="arrow"><img src="Arrow_Cream.png"></div>
+  <div class="addTask">
+    <span class="searchbar"> 
+      <input class="searchbar" type="text" placeholder="eg: Buy Bread" name="Enter Your Task:">
+      <button>↵</button>
+    </span>
+  </div>
+
+
+
+  <ul id="taskList">
+    <li>Clean Dishes<button class="delete-button"> <div class="delet">Del</div></button></li>
+    <li>Do the Laundry<button class="delete-button"> <div class="delet">Del</div></button></li>
+    <li>Mend the Shoes<button class="delete-button"> <div class="delet">Del</div></button></li>
+    <li>Get some rest...<button class="delete-button"> <div class="delet">Del</div></button></li>
+  </ul>
+
+  <div class="done"></div>
+  
+
+<button id="show-tooltip" class="top-left"><div class="tip">Tips</div></button>
+<div id="tooltip-popup" class="tooltip">
+   Click on your task to mark it done.
+<br>
+Press the Del button to remove.
+<br>
+Type in there to add new a task.
+</div>
+
+
+   <script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
